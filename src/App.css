@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  background-color: #F4F4F4;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: end;
+  padding: 1.5rem 2.5rem;
+}
+.nav input{
+  border: none;
+  padding-inline: 15px;
+  border-radius: 10px;
+  height: 30px;
+  width: 18rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.UserCard {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 280px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 10px;
+  padding-block: .5rem;
+}
+
+img {
+  width: 230px;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
